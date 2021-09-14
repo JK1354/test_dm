@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/dm', 'DMController@handle');
+Route::get('dm', 'DMController@handle');
